@@ -26,13 +26,13 @@
 </body> -->
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://acer--sbxfp.sandbox.my.site.com/outtest;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'nonce-lightningoutscript' https://acer--sbxfp.sandbox.my.site.com;">
     <script src="https://acer--sbxfp.sandbox.my.site.com/lightning/lightning.out.js"></script>
 </head>
 
 <body>
     <div id="lightningLocator"></div>
-    <script>
+    <script nonce="lightningoutscript">
         $Lightning.use("c:OutTest",    // name of the Lightning app
             function() {                  // Callback once framework and app loaded
                 $Lightning.createComponent(
