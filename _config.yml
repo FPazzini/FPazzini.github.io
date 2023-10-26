@@ -1,2 +1,3 @@
 cors:
+  - allowed-origin: "https://*.site.com"
   - allowed-origin: "https://acer--sbxfp.sandbox.my.site.com"
