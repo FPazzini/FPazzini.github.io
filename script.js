@@ -24,7 +24,3 @@ function makeTimer() {
 }
 
 setInterval(function() { makeTimer(); }, 1000);
-
-function toggleCountdown() {
-    
-}
